@@ -1,0 +1,72 @@
+@import '../styles/sass/variables';
+
+.btnBlk__primary {
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 150px;
+    height: 150px;
+    
+    background: $textColor;
+    border-radius: 1000px;
+    z-index: 4;
+    
+    transition: .4s;
+    .btn_primary {
+        position: relative;
+        width: 100px;
+        background-color: $textColor;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        z-index: 5;
+        display: inline-block;
+
+    }
+    &:hover {
+            box-shadow: 0 0 17px 1px $textColor;
+    }
+}
+
+.btnBlk {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 150px;
+    height: 150px;
+    
+    background: none;
+    border-radius: 1000px;
+    border: 1px solid $secondaryColor;
+    z-index: 4;
+    
+    transition: .4s;
+
+    .btn {
+        position: relative;
+        width: 100px;
+        color: $secondaryColor;
+
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        z-index: 5;
+        display: inline-block;
+
+    }
+    &:hover {
+        background-color: $secondaryColor;
+        .btn {
+        color: $textColor;
+    }
+            // transform: scale(1.05);
+    }
+}

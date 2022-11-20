@@ -1,0 +1,119 @@
+@import '../../../common/styles/sass/variables.scss';
+
+.discBlock {
+    padding: 117px 0 156px 350px;
+    height: 663px;
+    width: 1570px;
+    background-color: $bgPrimary;
+
+    .disc__content {
+
+        display: grid;
+        grid-template-columns: 660px 910px;
+
+        &__title {
+            width: 662px;
+            height: 663px;
+
+            .aboutDisc {
+                font-weight: 700;
+                font-size: 90px;
+                line-height: 104px;
+
+                color: black;
+                -webkit-text-stroke: 1px #BCBCBC;
+                -webkit-text-fill-color: rgb(0, 0, 0);
+
+                .light {
+                    position: relative;
+                    margin-left: 16px;
+
+                    div {
+                        position: absolute;
+                        top: 0;
+                        left: -25px;
+                        width: 105px;
+                        height: 105px;
+                        filter: blur(32px);
+                        background: radial-gradient(50% 50% at 50% 50%, #0178F3 0%, rgba(1, 120, 243, 0) 100%);
+                    }
+                }
+
+                .percent {
+                    position: relative;
+
+                    div {
+                        position: absolute;
+                        top: 1px;
+                        left: -15px;
+                        width: 90px;
+                        height: 90px;
+
+                        background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
+                        filter: blur(32px);
+                    }
+                }
+            }
+
+
+            .price {
+                margin-left: 16px;
+
+                -webkit-text-stroke: 1px rgb(255, 255, 255);
+                -webkit-text-fill-color: rgb(255, 255, 255);
+                color: #F5F5F5;
+            }
+
+            .text {
+                width: 490px;
+                margin-top: 40px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+
+                color: #BCBCBC;
+            }
+
+            input {
+                margin-top: 30px;
+                color: #fff;
+                background-color: #131111;
+                outline: none;
+                width: 445px;
+                border: none;
+                opacity: 0.45;
+                border-bottom: 1px solid #7D7D7D;
+            }
+
+            .button {
+                margin-top: 60px;
+            }
+        }
+
+        &__imgBlock {
+            .above {
+                width: 455px;
+                z-index: 1000;
+
+                .border {
+                    margin-top: -50px;
+                    margin-left: 270px;
+                    width: 736px;
+                    height: 736px;
+                    border-radius: 50%;
+                    border: 1px solid #333333;
+                    z-index: -1;
+
+                    img {
+                        margin-top: 40px;
+                        margin-left: 40px;
+                        width: 655px;
+                        height: 655px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

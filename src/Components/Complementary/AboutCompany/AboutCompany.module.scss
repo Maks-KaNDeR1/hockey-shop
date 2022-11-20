@@ -1,0 +1,44 @@
+@import '../../../common/styles/sass/variables.scss';
+
+.aboutCompany {
+    display: flex;
+
+    min-width: 1410px;
+
+    padding: 100px 160px;
+    background: $bgSecondary;
+    margin-left: 190px;
+    // height: 1323px;
+    border-radius: 85px 0 0 85px;
+    background: $bgSecondary;
+
+    &__about {
+        width: 491px;
+        position: relative;
+
+        h1 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 52px;
+
+            color: #333333;
+        }
+
+        .title {
+            height: 72px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        .button {
+            margin-top: 50px;
+        }
+    }
+
+    &__items {
+        width: 594px;
+        margin-left: 134px;
+        margin-top: 60px;
+    }
+}

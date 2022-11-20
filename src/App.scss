@@ -1,0 +1,14 @@
+@import './common/styles/sass/variables.scss';
+
+.App {
+  display: flex;
+  justify-content: center;
+
+  .app-wrapper-content {
+    font-family: 'Raleway';
+    font-style: normal;
+    max-width: 1920px;
+    background-color: $bgPrimary;
+    overflow-x: hidden;
+  }
+}

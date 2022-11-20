@@ -1,0 +1,85 @@
+@import '../../../common/styles/sass/variables.scss';
+
+.testBlock {
+    min-height: 971px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &__upper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 1920px;
+
+        margin-top: 100px;
+        // display: flex;
+        text-align: center;
+
+        h1 {
+            width: 650px;
+            height: 104px;
+
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 52px;
+            text-align: center;
+
+            color: $bgSecondary;
+        }
+
+        span {
+            width: 560px;        
+            height: 24px;
+
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+
+            color: #D8D8D8;
+        }
+
+    }
+
+    &__bottom {
+        display: flex;
+        position: relative;
+        img {
+            position: absolute;
+            z-index: 1;
+            width: 1048px;
+            height: 741px;
+            left: 400px;
+            // top: 10px;
+
+        }
+
+        .orangeBackground {
+            width: 600px;
+            height: 560px;
+            margin-left: 450px;
+            margin-top: -5px;
+
+            background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
+            filter: blur(78px);
+        }
+
+        .button {
+            position: absolute;
+            z-index: 5;
+            right: 500px;
+            top: 370px;
+        }
+
+        .blueBackground {
+            width: 464px;
+            height: 464px;
+            margin-left: 183px;
+            margin-top: 215px;
+
+            background: radial-gradient(50% 50% at 50% 50%, #0178F3 0%, rgba(1, 120, 243, 0) 100%);
+            filter: blur(68px);
+        }
+    }
+}

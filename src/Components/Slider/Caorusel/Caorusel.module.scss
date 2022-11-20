@@ -1,0 +1,15 @@
+.container {
+    max-width: 992;
+    width: 992px;
+    height: 601px;
+    
+    object-fit: cover;
+    border-radius: 100px 0px;
+    
+    .all_items_container {
+        height: 100%;
+        display: flex;
+        
+        transition: .8s;
+    }
+}

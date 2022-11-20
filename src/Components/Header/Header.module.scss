@@ -1,0 +1,61 @@
+@import '../../common/styles/sass/variables.scss';
+
+header {
+    height: 80px;
+    padding: 0 13vw; 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+    background: $bgPrimary;
+
+    .logo {
+        display: flex;
+        width: 160px;
+        color: $textColor;
+        align-items: center;
+        justify-content: space-between;
+
+        div {
+            :nth-child(2) {
+                color: #BCBCBC;
+                margin-left: 4px;
+            }
+        }
+    }
+
+    .link {
+        display: flex;
+        width: 551px;
+        justify-content: space-between;
+
+        a {
+            color: $primaryColor;
+            text-decoration: none;
+
+            &:first-child {
+                color: #BCBCBC;
+            }
+            &:hover {
+                color: #BCBCBC;
+                // transform: scale(1.08);
+            }
+        }
+    }
+
+    .svg {
+        display: flex;
+        width: 225px;
+
+        img {
+            cursor: pointer;
+            margin-right: 23px;
+            transition: .2s;
+
+            &:hover {
+                transform: scale(1.08);
+            }
+        }
+    }
+}
