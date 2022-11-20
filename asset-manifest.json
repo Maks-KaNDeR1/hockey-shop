@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/hockey-shop/static/css/main.c8d5ba13.css",
+    "main.js": "/hockey-shop/static/js/main.981bbd1d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/hockey-shop/static/js/787.28cb0dcd.chunk.js",
+    "static/media/2.png": "/hockey-shop/static/media/2.d80b366ae951ac28913f.png",
+    "static/media/21.jpg": "/hockey-shop/static/media/21.0fc461c33b1bc5910e47.jpg",
+    "static/media/30.jpg": "/hockey-shop/static/media/30.b9e777618b518c686349.jpg",
+    "static/media/1.jpg": "/hockey-shop/static/media/1.cd58295a87afd67eb49f.jpg",
+    "static/media/22.jpg": "/hockey-shop/static/media/22.7b1902788b61d3b714bf.jpg",
+    "static/media/3.jpg": "/hockey-shop/static/media/3.95c285f8b5abdaf2c7d6.jpg",
+    "static/media/4.jpg": "/hockey-shop/static/media/4.1b3a91b005c1ab1a3d3e.jpg",
+    "static/media/logo-imperium.svg": "/hockey-shop/static/media/logo-imperium.e371c752f0a79860f1b9ce392a124c2c.svg",
+    "static/media/11.png": "/hockey-shop/static/media/11.c0cdc311180609135cd5.png",
+    "static/media/percent.svg": "/hockey-shop/static/media/percent.2fb05f55ab59c15ec454e6f6bd79f2a2.svg",
+    "static/media/logo-footer.svg": "/hockey-shop/static/media/logo-footer.b0870036f20561df87bf73621dfa95d1.svg",
+    "static/media/logo.svg": "/hockey-shop/static/media/logo.83ac320ee8d2d754b0d783e73db69b72.svg",
+    "static/media/phone.svg": "/hockey-shop/static/media/phone.f5e38b760f95233501abb252acc7bb7d.svg",
+    "static/media/light.svg": "/hockey-shop/static/media/light.ac1747289e100ba3e19625a20d8ae3af.svg",
+    "static/media/basket.svg": "/hockey-shop/static/media/basket.222b598ca70c0e616ed6d0a8b19588bf.svg",
+    "index.html": "/hockey-shop/index.html",
+    "static/media/item-bottom.svg": "/hockey-shop/static/media/item-bottom.7151e1e870ebc2ac8a4910b45a1851d4.svg",
+    "static/media/profile.svg": "/hockey-shop/static/media/profile.56983f6013faabcb91e44b13a8e79d69.svg",
+    "static/media/search.svg": "/hockey-shop/static/media/search.791ad39b924ba4194167c6e6da6b2f1b.svg",
+    "static/media/logo-min.svg": "/hockey-shop/static/media/logo-min.3ffdc68218aefad4a0ec3b16b396d60d.svg",
+    "static/media/arrow-left.svg": "/hockey-shop/static/media/arrow-left.3fecbb88bc839b364e7af8a772827961.svg",
+    "static/media/arrow-right.svg": "/hockey-shop/static/media/arrow-right.d29efc871cf913df3ab376de2c805b3a.svg",
+    "static/media/play-icon.svg": "/hockey-shop/static/media/play-icon.029884a484d071f950aa6ac7a6ea92ad.svg",
+    "static/media/rating.svg": "/hockey-shop/static/media/rating.67fb631ad886097e53cc93caabdf4056.svg",
+    "main.c8d5ba13.css.map": "/hockey-shop/static/css/main.c8d5ba13.css.map",
+    "main.981bbd1d.js.map": "/hockey-shop/static/js/main.981bbd1d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/hockey-shop/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8d5ba13.css",
+    "static/js/main.981bbd1d.js"
+  ]
+}
